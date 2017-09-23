@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+@import url('https://fonts.googleapis.com/css?family=Lato|Passion+One');
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+
+body{
+  background: url(new-york-668616_1920.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.mainContainer{
+  /* background-color: rgba(108,152,177,0.6); */
+  /* background-color: rgba(13,66,98,0.6); */
+  /* background-color: rgba(111,138,159,0.6); */
+  /* background-color: rgba(86,98,102,0.6); */
+  /* background-color: rgba(38,126,182,0.5); */
+  background-color: rgba(211,211,211,0.6);
+  min-height: 100vh;
+}
+.headerRow{
+  background-color: rgba(93,116,133,0.1);
+}
+.navbar-default{
+  background-color: rgba(93,116,133,0.1) !important;
+  border-color: rgba(93,116,133,0.2);
+}
+.content{
+  /* background-color: rgba(218,218,196,0.6); */
+  /* background-color: rgba(121,129,134,0.6); */
+  background-color: rgba(81,107,127,0.6);
+  border-radius: 25px;
+  color: DarkRed;
+  margin-bottom: 2vh;
+}
+.content1{
+  /* background-color: rgba(218,218,196,0.5); */
+  background-color: rgba(111,138,159,0.7);
+  border-radius: 25px;
+  color: DarkRed;
+  height:100vh;
+  padding-left: 15px;
+  padding-top: 5px;
+}
+.tweaked-margin{
+  margin-right: 2px;
+}
+.tweaked-margin-left{
+  margin-left: 1px;
+  padding-left: 15px;
+  padding-top: 5px;
+}
+.rowBot{
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
+  flex-wrap: wrap;
+}
+.rowBot > [class*='col-'] {
+  display: flex;
+  flex-direction: column;
+}
+.headerStyle{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 18pt;
+  color: DarkRed;
+}
+.textStyle{
+  font-style: italic;
+  font-family: 'Ubuntu', sans-serif;
+  color:#95DEE3;
+}
+.linkStyle{
+  /* color:#CFB095; */
+  color: #DFCFBE;
+  font-family: 'Lato', sans-serif;
+  font-style: italic;
+}
+.sideBar h1{
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 20pt;
+  color: DarkRed;
+}
+.sideBar ul{
+  list-style-type: none;
+  color:#DFCFBE;
+  font-size: 13pt;
+}
+.sideBar li{
+  margin-bottom: 2vh;
+  font-family: 'Ubuntu', sans-serif;
+}
+.sideBar{
+  height: 98%;
+}
+.footerStyle{
+  background-color: rgba(111,138,159,0.7);
+  border-radius: 25px;
+  font-family: 'Indie Flower', cursive;
+  color:#21759b;
+  font-size: 13pt;
+}
+
+.imageCentering{
+  margin: 0 auto;
+}
+.singleText{
+  color:#DFCFBE;
+  font-size: 13pt;
+  font-family: 'Ubuntu', sans-serif;
+}
+.singleHeadLine{
+  color:DarkRed;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 20pt;
+}
